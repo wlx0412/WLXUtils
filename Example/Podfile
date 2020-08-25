@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WLXUtils_Example' do
+  pod 'WLXUtils', :path => '../'
+
+  target 'WLXUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
