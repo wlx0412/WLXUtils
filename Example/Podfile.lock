@@ -1,0 +1,16 @@
+PODS:
+  - WLXUtils (0.1.0)
+
+DEPENDENCIES:
+  - WLXUtils (from `../`)
+
+EXTERNAL SOURCES:
+  WLXUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WLXUtils: e64cc4425845c644bafd2aa6610f92365f7d0fe6
+
+PODFILE CHECKSUM: 95dc45bdb40e9ead628e6f27e046c29e6497e399
+
+COCOAPODS: 1.8.4
