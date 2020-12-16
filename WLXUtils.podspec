@@ -37,6 +37,32 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#   s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'AFNetworking', '~> 4.0'
+  s.dependency 'SDWebImage'
+  s.dependency 'SDWebImageFLPlugin'
+  s.dependency 'FLAnimatedImage'
+  s.dependency 'SnapKit'
+  s.dependency 'IGListKit'
+  s.dependency 'SwiftyFitsize'
+  s.dependency 'HandyJSON'
+  s.dependency 'Alamofire'
+  s.dependency 'MJRefresh'
+  s.dependency 'EmptyPage'
+  s.dependency 'AttributedString'
+  s.dependency 'SwiftDate'
+  s.dependency 'IQKeyboardManager'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'ZZCircleProgress' #环形进度条
+  s.dependency 'SJVideoPlayer' #视频播放器
+  s.dependency 'SJBaseVideoPlayer'
+  s.dependency 'JXSegmentedView'
+  s.dependency 'ActiveLabel' #可点击的lab
+  s.dependency 'AAInfographics'
+  s.dependency 'TZImagePickerController'
+  s.dependency 'YBImageBrowser' #图片浏览器
+  s.dependency 'YBImageBrowser/Video' #视频功能需添加
+  s.dependency 'YYImage'
+  s.dependency 'SwiftyJSON'
+  s.dependency 'ZCycleView'
 end

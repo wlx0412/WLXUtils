@@ -1,4 +1,9 @@
+platform :ios, '10.0'
 use_frameworks!
+
+inhibit_all_warnings! #消除pod警告
+install! 'cocoapods', :deterministic_uuids => false
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'WLXUtils_Example' do
   pod 'WLXUtils', :path => '../'
